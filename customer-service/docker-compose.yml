@@ -14,8 +14,8 @@ services:
     restart: always
     ports:
       - "3306"
-    #volumes:
-      #- "./.docker/dbdata:/var/lib/mysql"
+    volumes:
+      - "./.docker/dbdata:/var/lib/mysql"
     environment:
       MYSQL_DATABASE: customerapp
       MYSQL_ROOT_PASSWORD: root

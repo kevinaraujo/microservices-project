@@ -1,4 +1,5 @@
 nova-2.9.3.zip
 product-service/nova/
 customer-service/nova/
+rental-service/nova/
 .idea/
