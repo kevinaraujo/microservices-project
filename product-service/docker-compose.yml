@@ -13,7 +13,7 @@ services:
     command: --innodb-use-native-aio=0
     restart: always
     ports:
-      - "3306:3306"
+      - "3306"
     volumes:
       - "./.docker/dbdata:/var/lib/mysql"
     environment:
@@ -24,7 +24,7 @@ services:
     build: .docker/nginx
     restart: always
     ports:
-      - "8001:80"
+      - "8011:80"
     volumes:
       - "./:/var/www"
     depends_on:
