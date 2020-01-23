@@ -13,7 +13,8 @@
         "laravel/framework": "^6.2",
         "laravel/nova": "*",
         "laravel/tinker": "^2.0",
-        "ramsey/uuid": "^3.9"
+        "ramsey/uuid": "^3.9",
+        "wesleywillians/phpeasykafka": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
